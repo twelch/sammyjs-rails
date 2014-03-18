@@ -1,4 +1,4 @@
-# sammy-rails
+# sammyjs-rails
 
 Rails asset pipeline integration for the [Sammy.js](http://sammyjs.org/) library. The gem includes the non-minified
 source for simple usage in development mode. The asset pipeline will minify it in production.
@@ -15,7 +15,7 @@ Please see the [Sammy.js documentation](http://sammyjs.org/intro) for more detai
 
 Add this line to your application's Gemfile:
 
-    gem 'sammy-rails'
+    gem 'sammyjs-rails'
 
 And then execute:
 
@@ -23,7 +23,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sammy-rails
+    $ gem install sammyjs-rails
 
 Add the following directive to your Javascript manifest file (application.js):
 
@@ -31,4 +31,4 @@ Add the following directive to your Javascript manifest file (application.js):
 
 ## Versioning
 
-sammy-rails 0.7.5 == Sammy.js 0.7.5
+sammyjs-rails 0.7.5 == Sammy.js 0.7.5
