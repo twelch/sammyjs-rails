@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sammy/rails/version'
+require 'sammyjs/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'sammy-rails'
-  spec.version       = Sammy::Rails::VERSION
+  spec.name          = 'sammyjs-rails'
+  spec.version       = Sammyjs::Rails::VERSION
   spec.authors       = ['Adrian Salceanu']
   spec.email         = ['me@adriansalceanu.com']
   spec.description   = %q{Sammy.js is a tiny JavaScript framework developed to ease the pain and provide a basic structure for developing JavaScript applications.}
   spec.summary       = %q{Rails asset pipeline integration for the Sammy.js JavaScript library.}
-  spec.homepage      = 'https://github.com/adriansalceanu/sammy-rails'
+  spec.homepage      = 'https://github.com/adriansalceanu/sammyjs-rails'
   spec.license       = 'MIT'
 
   spec.files            = Dir['{lib,vendor}/**/*'] + ['MIT-LICENSE', 'README.md']

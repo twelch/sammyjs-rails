@@ -1,6 +1,6 @@
-require "sammy/rails/version"
+require "sammyjs/rails/version"
 
-module Sammy
+module Sammyjs
   module Rails
     class Engine < ::Rails::Engine
     end
